@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    min-height: 100vh; 
+    overflow: hidden;
+    font-family: sans-serif;
+}
+
+.container{
+    background-color: whitesmoke;
+    width: 300px;
+    text-align: center;
+    margin: auto;
+    padding: 30px 20px;
+    margin-top: 80px;
+    border-radius: 10px;
+    
+}
+#loginH1{
+    color: hsl(0, 0%, 50%);
+
+}
+.containerInput{
+    width: 250px;
+    height: 30px;
+    margin: 3px;
+    border: none;
+    border-radius: 2px;
+    border-bottom: 1px solid #adadad;
+
+    font-size: 14px; /* Schriftgröße */
+    font-family: Arial, sans-serif; /* Schriftart */
+    color: #333; /* Textfarbe */
+    outline: none;
+}
+
+.forget{
+    font-size: 13px;
+    color: #adadad;
+    text-decoration: none;
+    text-align: left;
+    display: block;
+    margin: -10px 0 0 10px;
+    margin-left: 24px;
+}
+
+#loginSubmit{
+    height: 40px;
+    width: 270px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    background-color: hsl(0, 0%, 50%) ;
+    border-radius: 20px;
+    color: hsl(0, 0%, 96%);
+    transition: 0.2s;
+
+
+}
+
+#loginSubmit:hover{
+    background-color: hsl(0, 0%, 60%) ;
+    
+}
+p{
+    font-size: 13px;
+    color: #adadad;
+    text-decoration: none;
+    text-align: left;
+    display: block;
+    margin: 18px 0 0 10px;
+    margin-left: 23px;
+}
