@@ -33,6 +33,7 @@ body{
     font-family: Arial, sans-serif;
     color: #333; 
     outline: none;
+    text-align: center;
 }
 .containerInput::placeholder{
     color: hsl(0, 0%, 85%);
