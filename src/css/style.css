@@ -29,11 +29,14 @@ body{
     border: none;
     border-radius: 2px;
     border-bottom: 1px solid #adadad;
-
-    font-size: 14px; /* Schriftgröße */
-    font-family: Arial, sans-serif; /* Schriftart */
-    color: #333; /* Textfarbe */
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    color: #333; 
     outline: none;
+}
+.containerInput::placeholder{
+    color: hsl(0, 0%, 85%);
+    text-align: center;
 }
 
 .forget{
