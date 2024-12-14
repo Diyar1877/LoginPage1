@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    min-height: 100vh; 
+    overflow: hidden;
+    font-family: sans-serif;
+}
+.container{
+    background-color: whitesmoke;
+    width: 300px;
+    text-align: center;
+    margin: auto;
+    padding: 30px 20px;
+    margin-top: 80px;
+    border-radius: 10px;
+    
+}
+.myH1{
+    color: hsl(0, 0%, 50%);
+}
+.nameContainer input{
+    width: 250px;
+    height: 30px;
+    margin: 3px;
+    border: none;
+    border-radius: 2px;
+    border-bottom: 1px solid #adadad;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    color: #333; 
+    outline: none;
+    text-align: center;
+    
+}
+.containerInput::placeholder{
+    color: hsl(0, 0%, 85%);
+    text-align: center;
+}
+.emailContainer input{
+    width: 250px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid #adadad;
+    text-align: center;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    outline: none;
+    margin: 3px;
+
+
+}
+.passContainer{
+    margin: 15px;
+}
+
+.nameContainer{
+    margin: 15px;
+}
+
+.emailContainer{
+    margin: 15px;
+}
+    .passContainer input{
+    width: 250px;
+    height: 30px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    border: none;
+    border-bottom: 1px solid #adadad;
+    outline: none;
+    margin: 3px;
+
+    
+}
