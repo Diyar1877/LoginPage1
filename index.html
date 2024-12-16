@@ -9,26 +9,28 @@
 </head>
 
 <body>
-<div class="container">
+    <div class="container">
 
-    <h1 id="loginH1">Login</h1>
-    <div >
-        <input class="containerInput" type="username" id="emailinput" placeholder="Username">
+        <h1 id="loginH1">Login</h1>
+        <div>
+            <input class="containerInput" type="username" id="emailinput" placeholder="Username">
+            <br>
+            <input class="containerInput" type="password" id="passwordinput" placeholder="Password">
+        </div>
         <br>
-        <input class="containerInput" type="password" id="passwordinput" placeholder="Password">
+        <a href="src/html/forgot.html" class="forget">Forget Password?</a>
+        <br>
+        <a href="index.html"><button id="loginSubmit">Login</button></a>
+        <br><br>
+        <button id="Random" onclick="setRandom()">Random Color</button>
+
+        <div>
+            <p>Not a Member? <span><a href="src/html/signup.html" id="Signup" class="Signup">Signup</a></span></p>
+
+
+        </div>
+
     </div>
-    <br>
-    <a href="src/html/forgot.html" class="forget">Forget Password?</a>
-    <br>
-    <button id="loginSubmit">Login</button>
-    <br>
-    
-    <div>
-        <p>Not a Member? <span><a href="src/html/signup.html" id="Signup" class="Signup">Signup</a></span></p>
-         
-    </div>
-    
-</div>
     <script src="src/js/index.js"></script>
 </body>
 
